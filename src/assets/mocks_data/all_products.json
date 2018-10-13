@@ -1,0 +1,188 @@
+[
+  {
+    "basics": {
+      "sku": {
+        "value": "TRVAL28726",
+        "heading": "SKU"
+      },
+      "productName": {
+        "value": "George Girls' Short-Sleeve Polo; Hanes Men's V-Neck Tees, 3-Pack",
+        "heading": "Product Name"
+      },
+      "productIdType": {
+        "value": "UPC; GTIN; ISBN; EAN",
+        "heading": "Product ID Type"
+      },
+      "productId": {
+        "value": "X12345",
+        "heading": "Product ID"
+      },
+      "productIdentifiers": {
+        "value": "X12345JKK123",
+        "heading": "Product Identifiers"
+      },
+      "shortDescription": {
+        "value": "The George - Girls' Short Sleeve Polo Shirt will make a great addition to your daughter's uniform wardrobe. This short-sleeved girls' shirt has a flat knit collar and cuff for a comfortable fit. Plus, it's tagless, so your daughter's skin won't be irritated by a scratchy tag. This girls' short sleeve polo is made from a cotton blend, and treated with Scotchgard for stain protection. It has a two-button placket, an extended back hem and vents on each side hem. The girls' polo shirt is machine washable and very easy to maintain.",
+        "heading": "Description"
+      },
+      "keyFeatures": {
+        "value": "Wicks away moisture; Looks fabulous with wedge heels; Won't shrink in wash",
+        "heading": "Key Features"
+      },
+      "unitsPerConsumerUnit": {
+        "value": 2,
+        "heading": "Package Count"
+      },
+      "brand": {
+        "value": "HP; Toshiba; Tide; M&Ms; Hanes; La-Z-Boy; Unbranded",
+        "heading": "Brand"
+      },
+      "manufacturer": {
+        "value": "Procter & Gamble; Apple; Sony; General Motors; Yamaha",
+        "heading": "Manufacturer"
+      },
+      "manufacturerPartNumber": {
+        "value": "5061025; TSR-1002; 4-40-3/4-pan-phil",
+        "heading": "Manufacturer Part Number"
+      },
+      "modelNumber": {
+        "value": "G62-465DX; MFP00112BBQN",
+        "heading": "Model Number"
+      },
+    },
+    "images": {
+      "mainImageUrl": {
+        "value": "assets/images/00001000381106__477361_P/00001000381106_A1C1_900_900.jpeg",
+        "heading": "Main Image URL"
+      },
+      "productSecondaryImageURL": {
+        "value": "assets/images/00001000381106__477361_P/00001000381106_A2C1_900_900.jpeg",
+        "heading": "Additional Image URL"
+      }
+    }
+  },
+  {
+    "basics": {
+      "sku": {
+        "value": "TRVAL28726",
+        "heading": "SKU"
+      },
+      "productName": {
+        "value": "George Girls' Short-Sleeve Polo; Hanes Men's V-Neck Tees, 3-Pack",
+        "heading": "Product Name"
+      },
+      "productIdType": {
+        "value": "UPC; GTIN; ISBN; EAN",
+        "heading": "Product ID Type"
+      },
+      "productId": {
+        "value": "X12345",
+        "heading": "Product ID"
+      },
+      "productIdentifiers": {
+        "value": "X12345JKK123",
+        "heading": "Product Identifiers"
+      },
+      "shortDescription": {
+        "value": "The George - Girls' Short Sleeve Polo Shirt will make a great addition to your daughter's uniform wardrobe. This short-sleeved girls' shirt has a flat knit collar and cuff for a comfortable fit. Plus, it's tagless, so your daughter's skin won't be irritated by a scratchy tag. This girls' short sleeve polo is made from a cotton blend, and treated with Scotchgard for stain protection. It has a two-button placket, an extended back hem and vents on each side hem. The girls' polo shirt is machine washable and very easy to maintain.",
+        "heading": "Description"
+      },
+      "keyFeatures": {
+        "value": "Wicks away moisture; Looks fabulous with wedge heels; Won't shrink in wash",
+        "heading": "Key Features"
+      },
+      "unitsPerConsumerUnit": {
+        "value": 5,
+        "heading": "Package Count"
+      },
+      "brand": {
+        "value": "HP; Toshiba; Tide; M&Ms; Hanes; La-Z-Boy; Unbranded",
+        "heading": "Brand"
+      },
+      "manufacturer": {
+        "value": "Procter & Gamble; Apple; Sony; General Motors; Yamaha",
+        "heading": "Manufacturer"
+      },
+      "manufacturerPartNumber": {
+        "value": "5061025; TSR-1002; 4-40-3/4-pan-phil",
+        "heading": "Manufacturer Part Number"
+      },
+      "modelNumber": {
+        "value": "G62-465DX; MFP00112BBQN",
+        "heading": "Model Number"
+      },
+    },
+    "images": {
+      "mainImageUrl": {
+        "value": "assets/images/00014900012209__473346_P/00014900012209_A1C1_900_900.jpeg",
+        "heading": "Main Image URL"
+      },
+      "productSecondaryImageURL": {
+        "value": "assets/images/00014900012209__473346_P/00014900012209_A2C1_900_900.jpeg",
+        "heading": "Additional Image URL"
+      }
+    }
+  },
+  {
+    "basics": {
+      "sku": {
+        "value": "TRVAL28726",
+        "heading": "SKU"
+      },
+      "productName": {
+        "value": "George Girls' Short-Sleeve Polo; Hanes Men's V-Neck Tees, 3-Pack",
+        "heading": "Product Name"
+      },
+      "productIdType": {
+        "value": "UPC; GTIN; ISBN; EAN",
+        "heading": "Product ID Type"
+      },
+      "productId": {
+        "value": "X12345",
+        "heading": "Product ID"
+      },
+      "productIdentifiers": {
+        "value": "X12345JKK123",
+        "heading": "Product Identifiers"
+      },
+      "shortDescription": {
+        "value": "The George - Girls' Short Sleeve Polo Shirt will make a great addition to your daughter's uniform wardrobe. This short-sleeved girls' shirt has a flat knit collar and cuff for a comfortable fit. Plus, it's tagless, so your daughter's skin won't be irritated by a scratchy tag. This girls' short sleeve polo is made from a cotton blend, and treated with Scotchgard for stain protection. It has a two-button placket, an extended back hem and vents on each side hem. The girls' polo shirt is machine washable and very easy to maintain.",
+        "heading": "Description"
+      },
+      "keyFeatures": {
+        "value": "Wicks away moisture; Looks fabulous with wedge heels; Won't shrink in wash",
+        "heading": "Key Features"
+      },
+      "unitsPerConsumerUnit": {
+        "value": 7,
+        "heading": "Package Count"
+      },
+      "brand": {
+        "value": "HP; Toshiba; Tide; M&Ms; Hanes; La-Z-Boy; Unbranded",
+        "heading": "Brand"
+      },
+      "manufacturer": {
+        "value": "Procter & Gamble; Apple; Sony; General Motors; Yamaha",
+        "heading": "Manufacturer"
+      },
+      "manufacturerPartNumber": {
+        "value": "5061025; TSR-1002; 4-40-3/4-pan-phil",
+        "heading": "Manufacturer Part Number"
+      },
+      "modelNumber": {
+        "value": "G62-465DX; MFP00112BBQN",
+        "heading": "Model Number"
+      },
+    },
+    "images": {
+      "mainImageUrl": {
+        "value": "assets/images/00014900012704__481808_P/00014900012704_A1C1_900_900.jpeg",
+        "heading": "Main Image URL"
+      },
+      "productSecondaryImageURL": {
+        "value": "assets/images/00014900012704__481808_P/00014900012704_A2C1_900_900.jpeg",
+        "heading": "Additional Image URL"
+      }
+    }
+  }
+]

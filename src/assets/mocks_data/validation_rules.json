@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "sku": {
+      "required": true,
+      "required_level": "required",
+      "regex": "",
+      "description": "The string of letters and/or numbers a partner uses to identify the item, also known as the Vendor Stock Number. Walmart includes this value in all communications regarding item information such as orders."
+    },
+    "productName": {
+      "required": true,
+      "required_level": "required",
+      "regex": "",
+      "description": "Title of the product to be displayed on the Item Page. The standard form is: Brand + Defining Qualities + Item Name + Pack Count, if applicable."
+    },
+    "productIdType": {
+      "required": true,
+      "required_level": "required",
+      "regex": "",
+      "description": "UPC: GTIN-12, the 12-digit number including check-digit. If less than 12-digits, such as UPC-E which is 8-digits, add leading zeros up to 12-digits.; GTIN: GTIN-14, the 14-digit number including check-digit. If less than 14-digits add leading zeros up to 14-digits. ISBN: International Standard Book Number, the 10 or 13-digit number including check-digit.; EAN: GTIN-13, the 13-digit number including check-digit. If less than 13-digits add leading zeros up to 13-digits. "
+    },
+    "productId": {
+      "required": true,
+      "required_level": "required",
+      "regex": "",
+      "description": "Alphanumeric ID that uniquely identifies the product. Used in conjunction with <Product ID Type>. NOTE: For GTIN-14 or UPC, include the check digit."
+    },
+    "productIdentifiers": {
+      "required": true,
+      "required_level": "required",
+      "regex": "",
+      "description": "Specify at least one Product ID and its ID Type."
+    },
+    "shortDescription": {
+      "required": true,
+      "regex": "",
+      "description": "Overview of the key selling points of the item, marketing content, and highlights in paragraph form. For SEO purposes, repeat the product name and relevant keywords here."
+    },
+    "keyFeatures": {
+      "required": false,
+      "required_level": "recommended",
+      "regex": "",
+      "description": "Key features will appear as bulleted text on the item page and in search results. Key features help the user understand the benefits of the product with a simple and clean format. We highly recommended using three or more key features."
+    },
+    "unitsPerConsumerUnit": {
+      "required": false,
+      "required_level": "recommended",
+      "regex": "",
+      "description": "The number of units in the item being offered for sale, such that each unit is packaged for individual sale and has a scannable bar code. Examples of Package Count: (1) A product containing a single package of 3 T-shirts has a <Package Count> of 1. (2) A product containing 2 packages each with 3 T-shirts has a <Package Count> of 2. (3) A product containing 2 packages of 36 count diapers has a <Package Count> of 2."
+    },
+    "brand": {
+      "required": false,
+      "required_level": "optional",
+      "regex": "",
+      "description": "Name, term, design or other feature that distinguishes one seller's product from those of others. This can be the name of the company associated with the product, but not always. If item does not have a brand, use <Unbranded>."
+    },
+    "manufacturer": {
+      "required": false,
+      "regex": "",
+      "required_level": "optional",
+      "description": "Manufacturer is the maker of the product. This is the name of the company that produces the product, not necessarily the brand name of the item. For some products, the manufacturer and the brand may be the same."
+    },
+    "manufacturerPartNumber": {
+      "required": false,
+      "regex": "",
+      "required_level": "optional",
+      "description": "MPN uniquely identifies the product to its manufacturer. For many products this will be identical to the model number. Some manufacturers distinguish part number from model number. Having this information allows customers to search for items on the site and informs product matching."
+    },
+    "modelNumber": {
+      "required": true,
+      "regex": "",
+      "required_level": "recommended",
+      "description": "Model numbers allow manufacturers to keep track of each hardware device and identify or replace the proper part when needed. Model numbers are often found on the bottom, back, or side of a product. Having this information allows customers to search for items on the site and informs product matching."
+    }
+  },
+  "logistics": {
+    "modelNumber": {
+      "required": true,
+      "regex": "",
+      "required_level": "recommended",
+      "description": ""
+    }
+  }
+}
