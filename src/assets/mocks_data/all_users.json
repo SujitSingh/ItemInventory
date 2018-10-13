@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "abcd12345",
+    "full_name": "Admin",
+    "last_name": "User",
+    "role": "admin",
+    "email": "admin@user.com",
+    "token": "3487348848efh78-34r3454k7j54-34kj35jh565j6"
+  },
+  {
+    "_id": "abcd12346",
+    "full_name": "User2",
+    "last_name": "Normal",
+    "role": "admin",
+    "email": "user1@user.com",
+    "token": "3hjer48848efh78-34r3454k7j54-34kj35jh565j6"
+  },
+  {
+    "_id": "abcd12347",
+    "full_name": "User2",
+    "last_name": "Normal",
+    "role": "admin",
+    "email": "user2@user.com",
+    "token": "3hdf8e98848efh78-34r3454k7j54-34kj35jh565j6"
+  }
+]
