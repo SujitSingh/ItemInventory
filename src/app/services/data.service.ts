@@ -16,7 +16,7 @@ export class DataService {
     return this.http.get(this.auth.appIP + 'all_users.json');
   }
 
-  getAvailableProducts() {
+  getAllProducts() {
     // return list of available products
     return this.http.get(this.auth.appIP + 'all_products.json');
   }

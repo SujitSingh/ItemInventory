@@ -1,0 +1,26 @@
+
+<nav class="blue">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">ItemMasters</a>
+      <a materialize="sideNav" href="#" 
+        data-activates="slide-navigation" class="button-collapse"
+        [materializeParams]="[{ closeOnClick: true }]"
+        (click)="updateNavigation()">
+        <i class="material-icons">menu</i>
+      </a>
+      <a href=""></a>
+      <ul class="right hide-on-med-and-down">
+        <li *ngFor="let nav of navigations" routerLinkActive="active">
+          <a *ngIf="nav.visible" [routerLink]="nav.path">{{nav.text}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<ul id="slide-navigation" class="side-nav sidenav">
+  <li *ngFor="let nav of navigations" routerLinkActive="active">
+    <a *ngIf="nav.visible" [routerLink]="nav.path">{{nav.text}}</a>
+  </li>
+  <li class="divider"></li>
+</ul>

@@ -34,7 +34,6 @@ export class LoginComponent implements OnInit {
     // fetch all dummy users.
     this.data.getAllUsers().subscribe(
       (usersList: object[]) => {
-        console.log(usersList);
         this.validateAndLogin(usersList, {email: this.login.email, password: this.login.password});
       },
       error => {
