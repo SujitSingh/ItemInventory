@@ -93,6 +93,21 @@ export class ProductsComponent implements OnInit {
     console.log(this.productsList);
   }
 
+  approveProduct(product) {
+    // approve the product
+    let approve = confirm('Sure to approve');
+    if (approve) {
+      alert('Product got approved');
+    }
+  }
+  rejectProduct(product) {
+    // reject the product
+    let reject = confirm('Sure to reject');
+    if (reject) {
+      alert('Product got rejected');
+    }
+  }
+
   editEntry(product) {
     // edit current response
     console.log(product);
