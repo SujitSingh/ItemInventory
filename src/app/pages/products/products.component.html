@@ -28,7 +28,7 @@
           <div class="card-action">
             <div class="controls admin-access" *ngIf="adminAccess; else normalUser">
               <a href="javascript:void()" (click)="approveProduct(product)">Approve</a>
-              <a href="javascript:void()">Reject</a>
+              <a href="javascript:void()" (click)="rejectProduct(product)">Reject</a>
             </div>
             <ng-template #normalUser>
               <div class="controls user-access">
