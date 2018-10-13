@@ -14,9 +14,6 @@ import { AddProductComponent } from './pages/add-product/add-product.component';
 import { NotFoundComponent } from './pages/not_found/not_found.component';
 
 import { AuthService } from './services/auth.service';
-import { ProductsService } from './services/products.service';
-import { OrdersService } from './services/orders.service';
-import { CommonService } from './services/common.service';
 
 const appRoutes: Routes = [
   { path: '', component: ProductsComponent },
@@ -34,7 +31,7 @@ const appRoutes: Routes = [
     LoginComponent,
     ProductsComponent,
     AddProductComponent,
-    NotFoundComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +45,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     MaterializeModule
   ],
-  providers: [AuthService, ProductsService, OrdersService, CommonService],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

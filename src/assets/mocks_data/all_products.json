@@ -1,5 +1,6 @@
 [
   {
+    "user_email": "user1@user.com",
     "basics": {
       "sku": {
         "value": "TRVAL28726",
@@ -48,7 +49,7 @@
       "modelNumber": {
         "value": "G62-465DX; MFP00112BBQN",
         "heading": "Model Number"
-      },
+      }
     },
     "images": {
       "mainImageUrl": {
@@ -61,7 +62,8 @@
       }
     }
   },
-  {
+  { 
+    "user_email": "admin@user.com",
     "basics": {
       "sku": {
         "value": "TRVAL28726",
@@ -110,7 +112,7 @@
       "modelNumber": {
         "value": "G62-465DX; MFP00112BBQN",
         "heading": "Model Number"
-      },
+      }
     },
     "images": {
       "mainImageUrl": {
@@ -124,6 +126,7 @@
     }
   },
   {
+    "user_email": "user1@user.com",
     "basics": {
       "sku": {
         "value": "TRVAL28726",
@@ -172,7 +175,7 @@
       "modelNumber": {
         "value": "G62-465DX; MFP00112BBQN",
         "heading": "Model Number"
-      },
+      }
     },
     "images": {
       "mainImageUrl": {

@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="available-items" *ngIf="productsList.length; else noItem">
+    <h5>Available products - </h5>
+
+    <div class="row product" *ngFor="let product of productsList">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <div class="basic-elements">
+              <h5 class="section-title">Basic elements</h5>
+              <div *ngFor="let baseProd of product.basics" class="row">
+                <div class="col s3 heading">{{baseProd.heading}}</div>
+                <div class="col s9 value">{{baseProd.value}}</div>
+              </div>
+            </div>
+            <div class="image-elements">
+              <h5 class="section-title">Images</h5>
+              <div *ngFor="let images of product.images" class="row">
+                <div class="col s3 heading">{{images.heading}}</div>
+                <div class="col s9 value">
+                  <div class="card-image">
+                    <img [src]="images.value">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-action">
+            <div class="controls admin-access" *ngIf="adminAccess; else normalUser">
+              <a href="javascript:void()" (click)="approveProduct(product)">Approve</a>
+              <a href="javascript:void()">Reject</a>
+            </div>
+            <ng-template #normalUser>
+              <div class="controls user-access">
+                <a href="javascript:void()" (click)="editEntry(product)">Edit</a>
+              </div>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <ng-template #noItem>
+    <h5 class="center">Sorry, no product is currently available</h5>
+  </ng-template>
+</div>
